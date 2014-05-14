@@ -10,7 +10,7 @@ public class Player {
 	private int k ;
 	
 	public Player(){
-		
+		//asd
 	}
 
 	public int getFideid() {
