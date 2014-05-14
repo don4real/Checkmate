@@ -39,4 +39,26 @@
         android:text="1st"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
+     <TextView
+    android:id="@+id/positionTournament"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/position"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    android:layout_marginTop="25dp"
+    android:text="Tournament Name: "
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tournamentName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/positionHeader"
+        android:layout_below="@+id/positionTournament"
+        android:text="Tata Steel Chess Tournament 2014"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
 </RelativeLayout>
