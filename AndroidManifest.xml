@@ -46,6 +46,9 @@
              <activity 
             android:name="com.example.checkmate.MyDetails"
   		></activity>
+               <activity 
+            android:name="com.example.checkmate.NewTournament"
+  		></activity>
     </application>
 
 </manifest>

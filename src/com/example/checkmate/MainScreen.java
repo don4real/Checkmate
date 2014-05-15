@@ -39,6 +39,7 @@ public class MainScreen extends Activity
 		menuItems.add("Expected Position in the Tournament");
 		menuItems.add("My Statistics");
 		menuItems.add("Edit my Details");
+		menuItems.add("Add New Tournament");
 		aa.notifyDataSetChanged();
 		
 		myListView.setOnItemClickListener(new OnItemClickListener() 
@@ -77,6 +78,11 @@ public class MainScreen extends Activity
 				else if(position==5)
 				{
 					Intent intent = new Intent(MainScreen.this, MyDetails.class);
+					startActivity(intent);
+				}
+				else if(position==6)
+				{
+					Intent intent = new Intent(MainScreen.this, NewTournament.class);
 					startActivity(intent);
 				}
 			}
