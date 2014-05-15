@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@layout/gradient2" >
+    
+       <TextView
+        android:id="@+id/tournament_add_text"
+        android:textSize="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="ADD TOURNAMENT"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+         <TextView
+        android:id="@+id/tournament_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tournament_add_text"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:text="Tournament Name: "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/add_tournament_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tournament_name"
+        android:layout_below="@+id/tournament_name"
+        android:text="TATA Steel Tournament 2014"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+      <TextView
+        android:id="@+id/tournament_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/add_tournament_name"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:text="Tournament Date: "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/add_tournament_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tournament_date"
+        android:layout_below="@+id/tournament_date"
+        android:text="02.05.2014"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/tournament_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/add_tournament_date"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:text="Tournament Location: "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/add_tournament_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tournament_location"
+        android:layout_below="@+id/tournament_location"
+        android:text="Diemen"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button_add_tournament"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Submit" />
+
+</RelativeLayout>

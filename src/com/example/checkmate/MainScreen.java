@@ -26,6 +26,8 @@ public class MainScreen extends Activity
 		setContentView(R.layout.main_menu);
 		getActionBar().hide();
 		
+		//System.out.println("RESULT: " + 5/2);
+		
 		ListView myListView = (ListView)findViewById(R.id.menuList);
 		TextView myEditText = (TextView)findViewById(R.id.menuText);
 
@@ -41,6 +43,8 @@ public class MainScreen extends Activity
 		menuItems.add("Edit my Details");
 		menuItems.add("Add New Tournament");
 		aa.notifyDataSetChanged();
+		
+		
 		
 		myListView.setOnItemClickListener(new OnItemClickListener() 
 		{
